@@ -1,0 +1,14 @@
+D:\batch28\donuneto\Dotuneto\d2\bin\Debug\net7.0\d2.exe
+D:\batch28\donuneto\Dotuneto\d2\bin\Debug\net7.0\d2.deps.json
+D:\batch28\donuneto\Dotuneto\d2\bin\Debug\net7.0\d2.runtimeconfig.json
+D:\batch28\donuneto\Dotuneto\d2\bin\Debug\net7.0\d2.dll
+D:\batch28\donuneto\Dotuneto\d2\bin\Debug\net7.0\d2.pdb
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\d2.GeneratedMSBuildEditorConfig.editorconfig
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\d2.AssemblyInfoInputs.cache
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\d2.AssemblyInfo.cs
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\d2.csproj.CoreCompileInputs.cache
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\d2.dll
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\refint\d2.dll
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\d2.pdb
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\d2.genruntimeconfig.cache
+D:\batch28\donuneto\Dotuneto\d2\obj\Debug\net7.0\ref\d2.dll

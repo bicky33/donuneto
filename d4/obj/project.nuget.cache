@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WWR8+/Sj7XgatqAtYlL0lbdHpKbjs1345Iy9uMM3UQy1DFkJvQoMTNVDBV6CU/D7tUI6mW3v0f8EfCAQU2XtfA==",
+  "success": true,
+  "projectFilePath": "D:\\batch28\\donuneto\\Dotuneto\\d4\\d4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CODE.ID\\.nuget\\packages\\system.commandline\\2.0.0-beta4.22272.1\\system.commandline.2.0.0-beta4.22272.1.nupkg.sha512"
+  ],
+  "logs": []
+}
