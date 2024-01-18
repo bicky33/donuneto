@@ -1,5 +1,6 @@
 ﻿using d6.DbContext;
 using d6.Entity;
+using d6.NewRepository;
 using d6.Repository;
 using Microsoft.Extensions.Configuration;
 
@@ -11,10 +12,20 @@ internal class Program
         BuildConfiguration();
         Console.WriteLine(Configuration.GetConnectionString("NorthWindDS"));
         var connection = Configuration.GetConnectionString("NorthWindDS");
-        var dapperContext = new DapperDbContext(connection);
-        IDapperRepository<Supplier> supplierDapperRepository = new SupplierDapperRepository(dapperContext);
-        IDapperRepository<Customer> customerDapperRepository = new CustomerDapperRepository(dapperContext);
-        IDapperRepository<Employee> employeeDapperRepository = new EmployeeDapperRepository(dapperContext);
+
+        var newDapperContextt = new NewDapperDbContext(connection);
+        INewDapperBaseRepository<Employee> employee = new EmployeeNewDapperRepository(newDapperContextt);
+        var emp = employee.FindAll();
+        foreach (var item in emp)
+        {
+            Console.WriteLine(item.ToString());
+        }
+        Console.WriteLine(employee.FindById(1).ToString());
+
+        //var dapperContext = new DapperDbContext(connection);
+        //IDapperRepository<Supplier> supplierDapperRepository = new SupplierDapperRepository(dapperContext);
+        //IDapperRepository<Customer> customerDapperRepository = new CustomerDapperRepository(dapperContext);
+        //IDapperRepository<Employee> employeeDapperRepository = new EmployeeDapperRepository(dapperContext);
         //var customers = supplierDapperRepository.FindAll();
         //foreach (var item in customers)
         //{
@@ -38,16 +49,14 @@ internal class Program
         //};
         //supplierDapperRepository.Create(ref supplier);
 
-        var employees = employeeDapperRepository.FindAll();
-        foreach (var item in employees)
-        {
-            Console.WriteLine(item.ToString());
-        }
+        //var employees = employeeDapperRepository.FindAll();
+        //foreach (var item in employees)
+        //{
+        //    Console.WriteLine(item.ToString());
+        //}
 
-
-
-
-
+        //var employee = employeeDapperRepository.FindById(1);
+        //Console.WriteLine(employee.ToString());
 
 
         //var adoContext = new AdoDbContext(connection);

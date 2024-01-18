@@ -83,5 +83,21 @@ namespace d6.Repository
             _dbContext.Dispose();
             return t;
         }
+
+        public override Employee FindById(dynamic id)
+        {
+            SqlCommandModel model = new()
+            {
+                CommandType = System.Data.CommandType.Text,
+                CommandText = "SELECT EmployeeID, LastName, FirstName, Title, TitleOfCourtesy, BirthDate, HireDate FROM Employees WHERE EmployeeID = @EmployeeID",
+                CommandParameters = new SqlCommandParameterModel[]
+                {
+                    new SqlCommandParameterModel(){ ParameterName = "@EmployeeID", DataType = System.Data.DbType.Int64, Value = id },
+                }
+            };
+            IEnumerator<Employee> employee = _dbContext.ExecuteReader<Employee>(model);
+            _dbContext.Dispose();
+            return employee.Current;
+        }
     }
 }

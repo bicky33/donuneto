@@ -115,26 +115,35 @@ namespace d6.DbContext
         public IEnumerator<T> ExecuteReader<T>(string sql)
          where T : class
         {
-            try
+            using (_dbConnection)
             {
                 _dbConnection.Open();
-                return _dbConnection.Query<T>(sql)
-                 .GetEnumerator();
-            }
-            finally
-            {
-                if (_dbConnection != null
-                 && _dbConnection.State
-                     == ConnectionState.Open)
-                    _dbConnection.Close();
+                return _dbConnection.Query<T>(sql).GetEnumerator();
             }
         }
 
-        public IEnumerator<Product> ExecuteReaderSP<Product>(
-         SqlCommandModel model
-    )
+        public IEnumerator<T> ExecuteReader<T>(SqlCommandModel model)
+         where T : class
         {
-            try
+            using (_dbConnection)
+            {
+                //if (_dbConnection.ConnectionString == null)
+                //{
+                //}
+                _dbConnection.Open();
+                var parameters = new DynamicParameters();
+                foreach (
+                                    SqlCommandParameterModel parameter in
+                                                    model.CommandParameters
+                                                                )
+                    parameters.Add(parameter.ParameterName, parameter.Value);
+                return _dbConnection.Query<T>(model.CommandText, parameters, commandType: CommandType.Text).GetEnumerator();
+            }
+        }
+
+        public IEnumerator<Product> ExecuteReaderSP<Product>(SqlCommandModel model)
+        {
+            using (_dbConnection)
             {
                 _dbConnection.Open();
                 var parameters = new DynamicParameters();
@@ -149,17 +158,7 @@ namespace d6.DbContext
                     commandType: CommandType.StoredProcedure
                 ).GetEnumerator();
             }
-            finally
-            {
-                if (_dbConnection != null
-                 && _dbConnection.State
-                 == ConnectionState.Open)
-                    _dbConnection.Close();
-            }
         }
-
-
-
     }
 
 }

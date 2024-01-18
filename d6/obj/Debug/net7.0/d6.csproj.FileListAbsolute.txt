@@ -34,3 +34,4 @@ D:\batch28\donuneto\Dotuneto\d6\obj\Debug\net7.0\ref\d6.dll
 D:\batch28\donuneto\Dotuneto\d6\bin\Debug\net7.0\appsettings.json
 D:\batch28\donuneto\Dotuneto\d6\bin\Debug\net7.0\Dapper.dll
 D:\batch28\donuneto\Dotuneto\d6\bin\Debug\net7.0\Dapper.SimpleCRUD.dll
+D:\batch28\donuneto\Dotuneto\d6\obj\Debug\net7.0\d6.sourcelink.json

@@ -31,7 +31,7 @@ namespace d6.Repository
             throw new NotImplementedException();
         }
 
-        public T FindById(dynamic id)
+        public virtual T FindById(dynamic id)
         {
             throw new NotImplementedException();
         }
