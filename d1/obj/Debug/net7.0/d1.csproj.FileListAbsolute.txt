@@ -12,3 +12,4 @@ D:\batch28\donuneto\Dotuneto\d1\obj\Debug\net7.0\refint\d1.dll
 D:\batch28\donuneto\Dotuneto\d1\obj\Debug\net7.0\d1.pdb
 D:\batch28\donuneto\Dotuneto\d1\obj\Debug\net7.0\d1.genruntimeconfig.cache
 D:\batch28\donuneto\Dotuneto\d1\obj\Debug\net7.0\ref\d1.dll
+D:\batch28\donuneto\Dotuneto\d1\obj\Debug\net7.0\d1.sourcelink.json

@@ -28,3 +28,4 @@ D:\batch28\donuneto\Dotuneto\d4\bin\Debug\net7.0\tr\System.CommandLine.resources
 D:\batch28\donuneto\Dotuneto\d4\bin\Debug\net7.0\zh-Hans\System.CommandLine.resources.dll
 D:\batch28\donuneto\Dotuneto\d4\bin\Debug\net7.0\zh-Hant\System.CommandLine.resources.dll
 D:\batch28\donuneto\Dotuneto\d4\obj\Debug\net7.0\d4.csproj.CopyComplete
+D:\batch28\donuneto\Dotuneto\d4\obj\Debug\net7.0\d4.sourcelink.json

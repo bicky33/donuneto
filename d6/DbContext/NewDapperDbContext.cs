@@ -56,5 +56,7 @@ namespace d6.DbContext
             using IDbConnection connection = new SqlConnection(_connectionString);
             connection.Execute(model.CommandText, parameters);
         }
+
+
     }
 }

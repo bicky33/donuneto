@@ -1,0 +1,15 @@
+D:\batch28\donuneto\Dotuneto\EFLib\bin\Debug\net7.0\EFLib.deps.json
+D:\batch28\donuneto\Dotuneto\EFLib\bin\Debug\net7.0\EFLib.runtimeconfig.json
+D:\batch28\donuneto\Dotuneto\EFLib\bin\Debug\net7.0\EFLib.dll
+D:\batch28\donuneto\Dotuneto\EFLib\bin\Debug\net7.0\EFLib.pdb
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.csproj.AssemblyReference.cache
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.AssemblyInfoInputs.cache
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.AssemblyInfo.cs
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.csproj.CoreCompileInputs.cache
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.sourcelink.json
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.dll
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\refint\EFLib.dll
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.pdb
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\EFLib.genruntimeconfig.cache
+D:\batch28\donuneto\Dotuneto\EFLib\obj\Debug\net7.0\ref\EFLib.dll

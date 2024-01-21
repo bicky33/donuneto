@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore", "EFCore\EFCore.csproj", "{F7683461-86F0-4944-BE42-E85372CC1059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFLib", "EFLib\EFLib.csproj", "{FB1F5705-E286-40C7-A54D-8165B754B687}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +54,14 @@ Global
 		{714565A0-9A87-4A3A-ABF2-F8E71EB87348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714565A0-9A87-4A3A-ABF2-F8E71EB87348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714565A0-9A87-4A3A-ABF2-F8E71EB87348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7683461-86F0-4944-BE42-E85372CC1059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7683461-86F0-4944-BE42-E85372CC1059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7683461-86F0-4944-BE42-E85372CC1059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7683461-86F0-4944-BE42-E85372CC1059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1F5705-E286-40C7-A54D-8165B754B687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1F5705-E286-40C7-A54D-8165B754B687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1F5705-E286-40C7-A54D-8165B754B687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1F5705-E286-40C7-A54D-8165B754B687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
